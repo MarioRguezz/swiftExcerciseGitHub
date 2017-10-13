@@ -1,0 +1,77 @@
+//: Playground - noun: a place where people can play
+import UIKit
+
+let grade = 60
+
+
+if grade>=90 {
+// block of code
+print("You're the MVP")
+
+}
+
+if grade < 50 {
+
+print(" reprobaste la materia")
+}
+
+if grade>=50 && grade < 90 {
+print("alumno ordinario")
+}
+
+
+print("app terminada")
+
+
+
+
+//: Playground - noun: a place where people can play
+import UIKit
+
+var age = 10
+
+if age >= 18 {
+
+print(" Puedes tramitar tu INE")
+} else {
+
+print("Aún no puedes")
+
+age = age + 1
+
+print("La edad es \(age)")
+
+}
+
+
+
+//: Playground - noun: a place where people can play
+import UIKit
+
+let grade = 91
+
+if grade >= 90 {
+print("A")
+} else if grade >= 80 && grade < 90 {
+print("B")
+} else if grade >= 70 && grade < 80 {
+print("C")
+} else {
+print("D")
+}
+
+
+print ("Hecho")
+
+
+import UIKit
+var age = 22
+if age > 18 {
+print("age >18")
+if age > 30 {
+print("age > 30")
+} else {
+print("age < 30") }
+}
+else { print("age <18")
+}

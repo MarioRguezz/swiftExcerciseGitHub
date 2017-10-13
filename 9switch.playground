@@ -1,0 +1,13 @@
+//: Playground - noun: a place where people can play
+import UIKit
+let grade = 66
+switch grade {
+case 80, 90:
+print("Tienes entre 80 y 90 ")
+case 70:
+print(" Tienes 70")
+case 50..<70:
+ print(" Estás en un rango de 50-70")
+ default: print("Fuera de rango ")
+ }
+ print("Hecho")

@@ -1,0 +1,28 @@
+//: Playground - noun: a place where people can play
+import UIKit
+
+let msg = "Bienvenido al curso de Swift3 "
+var name = "Mario Negrete"
+let fullMsg = name + "," + msg
+print(fullMsg)
+let fullMsg2 = "\(name),\(msg)"
+print(fullMsg2)
+print("Welcome \(name), in my class")
+name.append(msg)
+msg.capitalized
+msg.lowercased()
+msg.uppercased()
+
+let info = " El estudía la maestría de ingeniería de software"
+
+info.contains("maestria")
+info.contains("Maria")
+let msg3 = "hi"
+msg3.isEmpty
+
+let longMsg = """
+Hola
+Como
+va
+el trabajo
+"""

@@ -1,0 +1,14 @@
+//: Playground - noun: a place where people can play
+import UIKit
+
+var count = 11 // init
+while count <= 10 { // condition
+print("while:\(count)")
+count = count + 1 // inc
+}
+
+count = 11
+repeat{
+print("repeat:\(count)")
+count = count + 1 // inc
+}while count <= 10

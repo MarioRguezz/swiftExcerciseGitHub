@@ -1,0 +1,12 @@
+import UIKit
+
+
+//Como usar Val
+var name = "Mario"
+print(name)
+name = "Agustin"
+print(name)
+
+//Como usar Let
+let creditNumber = "842764278"
+print(creditNumber)

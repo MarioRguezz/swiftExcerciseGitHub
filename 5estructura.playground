@@ -1,0 +1,10 @@
+import UIKit
+
+//entrada
+let yearOfBirth = 1992
+
+//proceso
+let myAge = 2017 - yearOfBirth
+
+//salida
+print(myAge)

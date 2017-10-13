@@ -1,0 +1,13 @@
+import UIKit
+
+
+var fullName = "Mario Negrete"
+print(fullName)
+var age = 25
+print(age)
+var department = "Software engineering"
+print(department)
+var avg = 78.2
+print(avg)
+var isMarried = true
+print(isMarried)

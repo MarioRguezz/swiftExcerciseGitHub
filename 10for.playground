@@ -1,0 +1,36 @@
+//: Playground - noun: a place where people can play
+import UIKit
+
+for index in 1...10 {
+// block of code
+if index % 2 == 0 {
+print("número :\(index)")
+}
+
+}
+
+
+for index in 1..<10 {
+print("número :\(index)")
+}
+
+let names=["mario","agustin","sandy"]
+
+for name in names {
+print(name)
+}
+
+print("done")
+
+
+
+//: Playground - noun: a place where people can play
+import UIKit
+
+for index in 1...5 {
+//block
+print("index:\(index)")
+for item in 1...10 {
+print("item:\(item)")
+}
+}
